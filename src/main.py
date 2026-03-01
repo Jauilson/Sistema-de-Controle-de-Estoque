@@ -1,6 +1,7 @@
 # src/main.py
-from produto import Produto
-from estoque import Estoque
+from src.produto import Produto
+from src.estoque import Estoque
+from src.persistencia import carregar, salvar
 
 def exibir_menu():
     print("\n=== SISTEMA DE CONTROLE DE ESTOQUE ===")

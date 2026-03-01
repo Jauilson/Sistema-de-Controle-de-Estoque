@@ -1,5 +1,5 @@
 # src/estoque.py
-from produto import Produto
+from src.produto import Produto
 
 class Estoque:
     def __init__(self):
